@@ -24,11 +24,11 @@
         setter.url = [NSString stringWithFormat:@"https://%@", setter.url];
         // 添加补充参数
         NSMutableDictionary *parameters = [setter.parameters mutableCopy];
-        parameters[@"myUserId"] = @"1234";
+        parameters[@"userId"] = @"1234";
         setter.parameters = parameters;
         // 添加统一请求头
         NSMutableDictionary *headers = [setter.headers mutableCopy];
-        headers[@"My-Token"] = @"Allan666";
+        headers[@"Access-Token"] = @"abcdefg";
         setter.headers = headers;
     }];
     [CCNet setGobalSuccessHooker:^(CCNetInfoPayload * _Nonnull info, id  _Nullable response) {

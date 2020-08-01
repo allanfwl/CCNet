@@ -29,7 +29,6 @@
     [self.view addSubview:tableView];
     
     
-    
     test = [CCNetTest new];
     [test setup];
     
@@ -45,20 +44,7 @@
         @{ @"testMerge" : @"让多个请求都走一个回调函数" },
         @{ @"testThen" : @"多个请求有依赖的，并且只关心最后一个请求返回的数据" },
     ];
-    
-//    dataSource = @[
-//        @"testCCNetSubscribe", // 订阅上传下载进度
-//        @"testMock", // mock数据
-//        @"testVcDelloc", // 模拟viewControll销毁时，取消所有网络请求
-//        @"testCombineLatest", // 两个请求完成之后，统一回调，比如更新UI
-//        @"testThrottle", // 一秒之前，多次发起请求，最终只会发出一次请求。节约客户端网络资源/减轻服务端压力
-//        @"testFlatten", // 控制多个请求的最大并发数
-//        @"testConcat", // 多个请求有依赖的，前面的发生错误则中断后续请求
-//        @"testHooker", // 一些钩子
-//        @"testMerge", // 让多个请求都走一个回调函数
-//        @"testThen", // 多个请求有依赖的，并且只关心最后一个请求返回的数据
-//    ];
-    
+
 }
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
@@ -95,8 +81,6 @@
         CGFloat sublH = subLabel.bounds.size.height;
         CGFloat sublMargin = 5;
         CGFloat lMarginTop = (66-lH-sublH-sublMargin)/2;
-        
-        
         label.frame = (CGRect){ 20, lMarginTop, label.bounds.size };
         subLabel.frame = (CGRect){ 20, CGRectGetMaxY(label.frame)+sublMargin, subLabel.bounds.size };
     }
