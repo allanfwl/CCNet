@@ -110,6 +110,14 @@ RACSignal *req = [net POST:@"/product/getList" parameters:nil headers:nil]; /* �
 
 等等...
 
+另外补充一点是，因为网络请求都是依赖AFN对象的。所以我们可以在页面返回时，把当前的页面所有的请求都取消掉：
+
+```objective-c
+-(void)dealloc {
+    [self.net.httpManager.operationQueue cancelAllOperations];
+}
+```
+
 
 
 ## 其它
