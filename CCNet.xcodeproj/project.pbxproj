@@ -1,0 +1,642 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		135FBDB724D51BC8003258A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 135FBDB624D51BC8003258A1 /* AppDelegate.m */; };
+		135FBDBD24D51BC8003258A1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 135FBDBC24D51BC8003258A1 /* ViewController.m */; };
+		135FBDC224D51BCC003258A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 135FBDC124D51BCC003258A1 /* Assets.xcassets */; };
+		135FBDC524D51BCC003258A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 135FBDC324D51BCC003258A1 /* LaunchScreen.storyboard */; };
+		135FBDC824D51BCC003258A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 135FBDC724D51BCC003258A1 /* main.m */; };
+		135FBDF124D5228E003258A1 /* CCNet.m in Sources */ = {isa = PBXBuildFile; fileRef = 135FBDEB24D5228E003258A1 /* CCNet.m */; };
+		135FBDF224D5228E003258A1 /* CCNetTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 135FBDED24D5228E003258A1 /* CCNetTest.m */; };
+		135FBDF324D5228E003258A1 /* CCNetSignal.m in Sources */ = {isa = PBXBuildFile; fileRef = 135FBDEF24D5228E003258A1 /* CCNetSignal.m */; };
+		4366C9A5524112F1A034CCC8 /* Pods_CCNet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D225C1D9C58418806A8C6EA6 /* Pods_CCNet.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		135FBDCE24D51BCC003258A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 135FBDAA24D51BC8003258A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 135FBDB124D51BC8003258A1;
+			remoteInfo = CCNet;
+		};
+		135FBDD924D51BCC003258A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 135FBDAA24D51BC8003258A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 135FBDB124D51BC8003258A1;
+			remoteInfo = CCNet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		135FBDB224D51BC8003258A1 /* CCNet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCNet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		135FBDB524D51BC8003258A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		135FBDB624D51BC8003258A1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		135FBDBB24D51BC8003258A1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		135FBDBC24D51BC8003258A1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		135FBDC124D51BCC003258A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		135FBDC424D51BCC003258A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		135FBDC624D51BCC003258A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		135FBDC724D51BCC003258A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		135FBDCD24D51BCC003258A1 /* CCNetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CCNetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		135FBDD824D51BCC003258A1 /* CCNetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CCNetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		135FBDEB24D5228E003258A1 /* CCNet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCNet.m; sourceTree = "<group>"; };
+		135FBDEC24D5228E003258A1 /* CCNetSignal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCNetSignal.h; sourceTree = "<group>"; };
+		135FBDED24D5228E003258A1 /* CCNetTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCNetTest.m; sourceTree = "<group>"; };
+		135FBDEE24D5228E003258A1 /* CCNetTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCNetTest.h; sourceTree = "<group>"; };
+		135FBDEF24D5228E003258A1 /* CCNetSignal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCNetSignal.m; sourceTree = "<group>"; };
+		135FBDF024D5228E003258A1 /* CCNet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCNet.h; sourceTree = "<group>"; };
+		2FF932BF1CF481FD51D7E0A4 /* Pods-CCNet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCNet.release.xcconfig"; path = "Target Support Files/Pods-CCNet/Pods-CCNet.release.xcconfig"; sourceTree = "<group>"; };
+		9563468426808AFD3536C133 /* Pods-CCNet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCNet.debug.xcconfig"; path = "Target Support Files/Pods-CCNet/Pods-CCNet.debug.xcconfig"; sourceTree = "<group>"; };
+		D225C1D9C58418806A8C6EA6 /* Pods_CCNet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CCNet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		135FBDAF24D51BC8003258A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4366C9A5524112F1A034CCC8 /* Pods_CCNet.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		135FBDCA24D51BCC003258A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		135FBDD524D51BCC003258A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		135FBDA924D51BC8003258A1 = {
+			isa = PBXGroup;
+			children = (
+				135FBDB424D51BC8003258A1 /* CCNet */,
+				135FBDB324D51BC8003258A1 /* Products */,
+				269A976CB45429B5C9315E61 /* Pods */,
+				5B08484AB5884FB7E2C10EC1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		135FBDB324D51BC8003258A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				135FBDB224D51BC8003258A1 /* CCNet.app */,
+				135FBDCD24D51BCC003258A1 /* CCNetTests.xctest */,
+				135FBDD824D51BCC003258A1 /* CCNetUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		135FBDB424D51BC8003258A1 /* CCNet */ = {
+			isa = PBXGroup;
+			children = (
+				135FBDED24D5228E003258A1 /* CCNetTest.m */,
+				135FBDEE24D5228E003258A1 /* CCNetTest.h */,
+				135FBDEA24D5228E003258A1 /* CCNet */,
+				135FBDB524D51BC8003258A1 /* AppDelegate.h */,
+				135FBDB624D51BC8003258A1 /* AppDelegate.m */,
+				135FBDBB24D51BC8003258A1 /* ViewController.h */,
+				135FBDBC24D51BC8003258A1 /* ViewController.m */,
+				135FBDC124D51BCC003258A1 /* Assets.xcassets */,
+				135FBDC324D51BCC003258A1 /* LaunchScreen.storyboard */,
+				135FBDC624D51BCC003258A1 /* Info.plist */,
+				135FBDC724D51BCC003258A1 /* main.m */,
+			);
+			path = CCNet;
+			sourceTree = "<group>";
+		};
+		135FBDEA24D5228E003258A1 /* CCNet */ = {
+			isa = PBXGroup;
+			children = (
+				135FBDEB24D5228E003258A1 /* CCNet.m */,
+				135FBDEC24D5228E003258A1 /* CCNetSignal.h */,
+				135FBDEF24D5228E003258A1 /* CCNetSignal.m */,
+				135FBDF024D5228E003258A1 /* CCNet.h */,
+			);
+			path = CCNet;
+			sourceTree = "<group>";
+		};
+		269A976CB45429B5C9315E61 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9563468426808AFD3536C133 /* Pods-CCNet.debug.xcconfig */,
+				2FF932BF1CF481FD51D7E0A4 /* Pods-CCNet.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5B08484AB5884FB7E2C10EC1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D225C1D9C58418806A8C6EA6 /* Pods_CCNet.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		135FBDB124D51BC8003258A1 /* CCNet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 135FBDE124D51BCC003258A1 /* Build configuration list for PBXNativeTarget "CCNet" */;
+			buildPhases = (
+				7B5700288E16127E4A4B7585 /* [CP] Check Pods Manifest.lock */,
+				135FBDAE24D51BC8003258A1 /* Sources */,
+				135FBDAF24D51BC8003258A1 /* Frameworks */,
+				135FBDB024D51BC8003258A1 /* Resources */,
+				A11E8A7BB2F1910AC8880D95 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CCNet;
+			productName = CCNet;
+			productReference = 135FBDB224D51BC8003258A1 /* CCNet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		135FBDCC24D51BCC003258A1 /* CCNetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 135FBDE424D51BCC003258A1 /* Build configuration list for PBXNativeTarget "CCNetTests" */;
+			buildPhases = (
+				135FBDC924D51BCC003258A1 /* Sources */,
+				135FBDCA24D51BCC003258A1 /* Frameworks */,
+				135FBDCB24D51BCC003258A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				135FBDCF24D51BCC003258A1 /* PBXTargetDependency */,
+			);
+			name = CCNetTests;
+			productName = CCNetTests;
+			productReference = 135FBDCD24D51BCC003258A1 /* CCNetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		135FBDD724D51BCC003258A1 /* CCNetUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 135FBDE724D51BCC003258A1 /* Build configuration list for PBXNativeTarget "CCNetUITests" */;
+			buildPhases = (
+				135FBDD424D51BCC003258A1 /* Sources */,
+				135FBDD524D51BCC003258A1 /* Frameworks */,
+				135FBDD624D51BCC003258A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				135FBDDA24D51BCC003258A1 /* PBXTargetDependency */,
+			);
+			name = CCNetUITests;
+			productName = CCNetUITests;
+			productReference = 135FBDD824D51BCC003258A1 /* CCNetUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		135FBDAA24D51BC8003258A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = com.allan;
+				TargetAttributes = {
+					135FBDB124D51BC8003258A1 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					135FBDCC24D51BCC003258A1 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 135FBDB124D51BC8003258A1;
+					};
+					135FBDD724D51BCC003258A1 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 135FBDB124D51BC8003258A1;
+					};
+				};
+			};
+			buildConfigurationList = 135FBDAD24D51BC8003258A1 /* Build configuration list for PBXProject "CCNet" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 135FBDA924D51BC8003258A1;
+			productRefGroup = 135FBDB324D51BC8003258A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				135FBDB124D51BC8003258A1 /* CCNet */,
+				135FBDCC24D51BCC003258A1 /* CCNetTests */,
+				135FBDD724D51BCC003258A1 /* CCNetUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		135FBDB024D51BC8003258A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				135FBDC524D51BCC003258A1 /* LaunchScreen.storyboard in Resources */,
+				135FBDC224D51BCC003258A1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		135FBDCB24D51BCC003258A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		135FBDD624D51BCC003258A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7B5700288E16127E4A4B7585 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CCNet-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A11E8A7BB2F1910AC8880D95 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CCNet/Pods-CCNet-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CCNet/Pods-CCNet-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CCNet/Pods-CCNet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		135FBDAE24D51BC8003258A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				135FBDBD24D51BC8003258A1 /* ViewController.m in Sources */,
+				135FBDF224D5228E003258A1 /* CCNetTest.m in Sources */,
+				135FBDB724D51BC8003258A1 /* AppDelegate.m in Sources */,
+				135FBDF324D5228E003258A1 /* CCNetSignal.m in Sources */,
+				135FBDC824D51BCC003258A1 /* main.m in Sources */,
+				135FBDF124D5228E003258A1 /* CCNet.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		135FBDC924D51BCC003258A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		135FBDD424D51BCC003258A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		135FBDCF24D51BCC003258A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 135FBDB124D51BC8003258A1 /* CCNet */;
+			targetProxy = 135FBDCE24D51BCC003258A1 /* PBXContainerItemProxy */;
+		};
+		135FBDDA24D51BCC003258A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 135FBDB124D51BC8003258A1 /* CCNet */;
+			targetProxy = 135FBDD924D51BCC003258A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		135FBDC324D51BCC003258A1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				135FBDC424D51BCC003258A1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		135FBDDF24D51BCC003258A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		135FBDE024D51BCC003258A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		135FBDE224D51BCC003258A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9563468426808AFD3536C133 /* Pods-CCNet.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2LR3X4SM34;
+				INFOPLIST_FILE = CCNet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.allan.CCNet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		135FBDE324D51BCC003258A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FF932BF1CF481FD51D7E0A4 /* Pods-CCNet.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2LR3X4SM34;
+				INFOPLIST_FILE = CCNet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.allan.CCNet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		135FBDE524D51BCC003258A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2LR3X4SM34;
+				INFOPLIST_FILE = CCNetTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.allan.CCNetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CCNet.app/CCNet";
+			};
+			name = Debug;
+		};
+		135FBDE624D51BCC003258A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2LR3X4SM34;
+				INFOPLIST_FILE = CCNetTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.allan.CCNetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CCNet.app/CCNet";
+			};
+			name = Release;
+		};
+		135FBDE824D51BCC003258A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2LR3X4SM34;
+				INFOPLIST_FILE = CCNetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.allan.CCNetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CCNet;
+			};
+			name = Debug;
+		};
+		135FBDE924D51BCC003258A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2LR3X4SM34;
+				INFOPLIST_FILE = CCNetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.allan.CCNetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CCNet;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		135FBDAD24D51BC8003258A1 /* Build configuration list for PBXProject "CCNet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				135FBDDF24D51BCC003258A1 /* Debug */,
+				135FBDE024D51BCC003258A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		135FBDE124D51BCC003258A1 /* Build configuration list for PBXNativeTarget "CCNet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				135FBDE224D51BCC003258A1 /* Debug */,
+				135FBDE324D51BCC003258A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		135FBDE424D51BCC003258A1 /* Build configuration list for PBXNativeTarget "CCNetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				135FBDE524D51BCC003258A1 /* Debug */,
+				135FBDE624D51BCC003258A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		135FBDE724D51BCC003258A1 /* Build configuration list for PBXNativeTarget "CCNetUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				135FBDE824D51BCC003258A1 /* Debug */,
+				135FBDE924D51BCC003258A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 135FBDAA24D51BC8003258A1 /* Project object */;
+}
