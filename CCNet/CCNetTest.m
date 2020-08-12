@@ -243,4 +243,22 @@
     }];
 }
 
+/**
+ 在子线程回调事件（在指定线程驱动数据流）
+ */
+-(void)testDeliverOn {
+
+    NSLog(@"主线程 -> %@", [NSThread mainThread]);
+    
+     RACSubject *subject = [RACSubject subject];
+    [[[[subject deliverOn:[RACScheduler scheduler]] /* 1 */ map:^id _Nullable(id  _Nullable value) {
+        NSLog(@"当前线程 -> %@", [NSThread currentThread]);
+        return value;
+    }] deliverOn:[RACScheduler mainThreadScheduler]] /* 2 */ subscribeNext:^(id  _Nullable x) {
+        NSLog(@"当前线程 -> %@", [NSThread currentThread]);
+    }];
+    
+    [subject sendNext:@123];
+}
+
 @end
